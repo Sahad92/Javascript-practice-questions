@@ -12,17 +12,15 @@ const prompt = require('prompt-sync')();
 let count = 0;
 
 function Random_integer(){
+    const min = 1, max = 5
+    
+    var random_number = (Math.floor(Math.random() * (max - min + 1)) + min)
+    console.log(`Random generated number: ${random_number}`)
 
     do {
-        const min = 1
-        const max = 5
-    
         let user_num = prompt("Guess the number: ");
         var num = Number(user_num)
     
-        var random_number = (Math.floor(Math.random() * (max - min + 1)) + min)
-        console.log(`Random generated number: ${random_number}`)
-
         if (num > random_number){
             console.log("Guess is too high")
         }

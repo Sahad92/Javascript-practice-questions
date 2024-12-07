@@ -13,14 +13,14 @@ Create a program that:
 Topics covered: new Date(), toString(), toLocaleString(), typeof, date constructors
 */
 
-// let current_date = new Date()
-// console.log(current_date.toString());
+let current_date = new Date()
+console.log(current_date.toString());
 
-// let date1 = new Date()
-// str =  date1.toString()
-// console.log(typeof date1)
-// console.log(typeof str)
-// console.log(date1.toLocaleString())
+let date1 = new Date()
+str =  date1.toString()
+console.log(typeof date1)
+console.log(typeof str)
+console.log(date1.toLocaleString())
 
 let date2 = new Date(2023, 0, 23)
 // console.log(typeof date2)

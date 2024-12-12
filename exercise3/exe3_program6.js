@@ -12,12 +12,11 @@ function isSorted(arr){
 
     for (let i = 0; i < arr.length; i++){
         if(arr[i] != new_array[i]){
-            return console.log("false")
+            return false
         }
     }
-    return console.log("true")
+    return true
 }
 
-isSorted(arr = ["xyz","pqr","abc"])
-isSorted(arr = ["a","b","c"])
-
+console.log(isSorted(arr = ["xyz","pqr","abc"]))
+console.log(isSorted(arr = ["a","b","c"]))
